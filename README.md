@@ -42,15 +42,16 @@ See [`data/README.md`](data/README.md) for full source documentation.
 ## Methodology
 
 ### Complaint Ratio
-The DFS complaint ratio is calculated as upheld complaints per $1M in premiums
-written. It normalizes complaint volume by carrier size, making it possible to
-compare a regional carrier writing $50M in premiums against a national carrier
-writing $3B.
+The DFS complaint ratio is calculated as upheld complaints per $1M in premiums written.
+It shows how many valid complaints an insurer gets for every $1 million it collects in premiums. 
+This method makes it fair to compare small and large companies, like one that collects $50 million versus one 
+that collects $3 billion by creating a common scale while keeping the original relationship complaint volume by carrier size, 
+making it possible to compare a regional carrier writing $50M in premiums against a national carrier writing $3B.
 
 **Important limitation:** The ratio is unreliable for carriers writing less than
-$10M in premiums — a single complaint produces an artificially extreme ratio.
-All ratio-based analysis in this project applies a $10M premium floor to
-exclude these distortions. This filter reduces the universe from 243 to 147
+$10M in premiums. A single complaint produces an artificially extreme ratio.
+This project only includes companies that collect at least $10 million in premiums,
+so the results aren’t skewed by very small insurers. This filter reduces the universe from 243 to 147
 carriers but produces meaningfully more accurate comparisons.
 
 ### Chronic Offender Classification
