@@ -6,10 +6,9 @@
 ## Background
 
 New York State requires automobile insurers to report complaint data annually
-to the Department of Financial Services (DFS). The DFS publishes these rankings
-publicly, scoring each carrier by a complaint ratio — the number of upheld
-complaints per $1M in premiums written. A higher ratio means more policyholders
-filed complaints that DFS agreed were valid.
+to the Department of Financial Services (DFS). The DFS makes these rankings public and rates each 
+insurance company based on how many valid complaints they get for every $1 million in premiums they collect.
+A higher ratio means more policyholdersfiled complaints that DFS agreed were valid.
 
 For anyone who has worked inside a NY no-fault PIP operation, these complaint
 rankings tell a familiar story. The carriers that appear repeatedly at the top
