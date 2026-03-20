@@ -8,19 +8,18 @@
 New York State requires automobile insurers to report complaint data annually
 to the Department of Financial Services (DFS). The DFS makes these rankings public and rates each 
 insurance company based on how many valid complaints they get for every $1 million in premiums they collect.
-A higher ratio means more policyholdersfiled complaints that DFS agreed were valid.
+A higher ratio means more policyholders filed complaints that DFS agreed were valid.
 
-For anyone who has worked inside a NY no-fault PIP operation, these complaint
-rankings tell a familiar story. The carriers that appear repeatedly at the top
-of the worst-ratio lists are the same names that generate the most contentious
-claim files — delayed payments, disputed denials, and claimants escalating to
-the DFS because internal resolution failed. This project quantifies those
+As someone who has worked inside a NY no-fault PIP operation, these complaint
+rankings are quite revelatory. The insurance carriers that appear repeatedly at the top
+of the worst-ratio lists are the same names that generate the most disputed
+claim files such as delayed payments, disputed denials, and claimants escalating to
+the DFS because internal resolution failed. This project aims to quantifies those
 patterns across 16 years of data.
 
 This analysis was built using Python (pandas, matplotlib, seaborn) and draws
 on 9 years of NY no-fault PIP claims adjudication experience to interpret the
-findings in context. The domain knowledge behind the feature engineering and
-findings commentary is what separates this from a generic data exercise.
+findings in context. 
 
 ---
 
